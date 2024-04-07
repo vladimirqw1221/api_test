@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Apr 07 21:35:32 GMT 2024","Sun Apr 07 21:35:32 GMT 2024","206","test","test_api_books","TestApiBooks","","","Get param for one book",""
+"passed","Sun Apr 07 21:35:32 GMT 2024","Sun Apr 07 21:35:32 GMT 2024","279","test","test_api_books","TestApiBooks","","","Update all info for book",""
+"passed","Sun Apr 07 21:35:32 GMT 2024","Sun Apr 07 21:35:32 GMT 2024","91","test","test_api_books","TestApiBooks","","","Get all books",""
+"passed","Sun Apr 07 21:35:32 GMT 2024","Sun Apr 07 21:35:33 GMT 2024","320","test","test_api_books","TestApiBooks","","","Update author info",""
+"passed","Sun Apr 07 21:35:33 GMT 2024","Sun Apr 07 21:35:33 GMT 2024","269","test","test_api_books","TestApiBooks","","","Delete book by ID",""
+"passed","Sun Apr 07 21:35:32 GMT 2024","Sun Apr 07 21:35:32 GMT 2024","65","test","test_api_books","TestApiBooks","","","Create new book",""
