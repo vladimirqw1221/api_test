@@ -1,22 +1,22 @@
 {
-  "uid" : "a1cee0aacc8d6448",
+  "uid" : "497b5ea7e5db4bea",
   "name" : "Update all info for book",
   "fullName" : "test.test_api_books.TestApiBooks#test_update_book_by_id",
   "historyId" : "5e732771026790e6ae9062282b0a3bac",
   "time" : {
-    "start" : 1712525865680,
-    "stop" : 1712525865823,
-    "duration" : 143
+    "start" : 1712526650994,
+    "stop" : 1712526651207,
+    "duration" : 213
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "book_api",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1712525865456,
-      "stop" : 1712525865456,
-      "duration" : 0
+      "start" : 1712526650675,
+      "stop" : 1712526650692,
+      "duration" : 17
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "_session_faker",
+    "name" : "book_api",
     "time" : {
-      "start" : 1712525865440,
-      "stop" : 1712525865456,
-      "duration" : 16
+      "start" : 1712526650692,
+      "stop" : 1712526650692,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,9 +44,9 @@
   }, {
     "name" : "setup_model",
     "time" : {
-      "start" : 1712525865679,
-      "stop" : 1712525865679,
-      "duration" : 0
+      "start" : 1712526650993,
+      "stop" : 1712526650994,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -62,34 +62,34 @@
     "steps" : [ {
       "name" : "Update book",
       "time" : {
-        "start" : 1712525865680,
-        "stop" : 1712525865823,
-        "duration" : 143
+        "start" : 1712526650994,
+        "stop" : 1712526651206,
+        "duration" : 212
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Create book",
         "time" : {
-          "start" : 1712525865680,
-          "stop" : 1712525865727,
-          "duration" : 47
+          "start" : 1712526650994,
+          "stop" : 1712526651062,
+          "duration" : 68
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Create book data",
           "time" : {
-            "start" : 1712525865726,
-            "stop" : 1712525865726,
+            "start" : 1712526651061,
+            "stop" : 1712526651061,
             "duration" : 0
           },
           "status" : "passed",
           "steps" : [ ],
           "attachments" : [ {
-            "uid" : "e356c300cdaceb12",
+            "uid" : "85daad0412a9328b",
             "name" : "API Response",
-            "source" : "e356c300cdaceb12.json",
+            "source" : "85daad0412a9328b.json",
             "type" : "application/json",
-            "size" : 315
+            "size" : 314
           } ],
           "parameters" : [ ],
           "attachmentsCount" : 1,
@@ -105,11 +105,11 @@
         "hasContent" : true
       } ],
       "attachments" : [ {
-        "uid" : "5daff8c765db79e6",
+        "uid" : "938062a64902287e",
         "name" : "API Response",
-        "source" : "5daff8c765db79e6.json",
+        "source" : "938062a64902287e.json",
         "type" : "application/json",
-        "size" : 233
+        "size" : 232
       } ],
       "parameters" : [ ],
       "attachmentsCount" : 2,
@@ -126,11 +126,11 @@
   },
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "epic",
-    "value" : "Test Api books"
-  }, {
     "name" : "feature",
     "value" : "E2E test"
+  }, {
+    "name" : "epic",
+    "value" : "Test Api books"
   }, {
     "name" : "tag",
     "value" : "development"
@@ -145,10 +145,10 @@
     "value" : "TestApiBooks"
   }, {
     "name" : "host",
-    "value" : "fv-az570-667"
+    "value" : "fv-az575-664"
   }, {
     "name" : "thread",
-    "value" : "1796-MainThread"
+    "value" : "1781-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -175,11 +175,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 3,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
+        "uid" : "a1cee0aacc8d6448",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712525865680,
+          "stop" : 1712525865823,
+          "duration" : 143
+        }
+      }, {
         "uid" : "ce45bf4bccea916",
         "status" : "passed",
         "time" : {
@@ -191,6 +199,6 @@
     },
     "tags" : [ "development" ]
   },
-  "source" : "a1cee0aacc8d6448.json",
+  "source" : "497b5ea7e5db4bea.json",
   "parameterValues" : [ ]
 }
