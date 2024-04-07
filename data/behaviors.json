@@ -6,78 +6,78 @@
       "name" : "E2E test",
       "children" : [ {
         "name" : "Get all books",
-        "uid" : "107e41df8a448318",
+        "uid" : "672ca91f9a47c68",
         "parentUid" : "d5c59aa0dc3d4412678c1cdb144d9acd",
         "status" : "passed",
         "time" : {
-          "start" : 1712525732118,
-          "stop" : 1712525732209,
-          "duration" : 91
+          "start" : 1712525865456,
+          "stop" : 1712525865514,
+          "duration" : 58
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Get param for one book",
-        "uid" : "8300681a8ee1bf33",
+        "uid" : "21c30f14e17457cc",
         "parentUid" : "d5c59aa0dc3d4412678c1cdb144d9acd",
         "status" : "passed",
         "time" : {
-          "start" : 1712525732210,
-          "stop" : 1712525732416,
-          "duration" : 206
+          "start" : 1712525865516,
+          "stop" : 1712525865610,
+          "duration" : 94
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Create new book",
-        "uid" : "449aabca506ac7ad",
+        "uid" : "8f731892dcab7f3c",
         "parentUid" : "d5c59aa0dc3d4412678c1cdb144d9acd",
         "status" : "passed",
         "time" : {
-          "start" : 1712525732418,
-          "stop" : 1712525732483,
-          "duration" : 65
+          "start" : 1712525865612,
+          "stop" : 1712525865678,
+          "duration" : 66
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Update all info for book",
-        "uid" : "ce45bf4bccea916",
+        "uid" : "a1cee0aacc8d6448",
         "parentUid" : "d5c59aa0dc3d4412678c1cdb144d9acd",
         "status" : "passed",
         "time" : {
-          "start" : 1712525732485,
-          "stop" : 1712525732764,
-          "duration" : 279
+          "start" : 1712525865680,
+          "stop" : 1712525865823,
+          "duration" : 143
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Update author info",
-        "uid" : "31cdc33372b05b94",
+        "uid" : "5fa7e02b40f3ae5e",
         "parentUid" : "d5c59aa0dc3d4412678c1cdb144d9acd",
         "status" : "passed",
         "time" : {
-          "start" : 1712525732765,
-          "stop" : 1712525733085,
-          "duration" : 320
+          "start" : 1712525865825,
+          "stop" : 1712525865993,
+          "duration" : 168
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Delete book by ID",
-        "uid" : "4f239dbb20408297",
+        "uid" : "fc837c6256c9afaa",
         "parentUid" : "d5c59aa0dc3d4412678c1cdb144d9acd",
         "status" : "passed",
         "time" : {
-          "start" : 1712525733087,
-          "stop" : 1712525733356,
-          "duration" : 269
+          "start" : 1712525865995,
+          "stop" : 1712525866149,
+          "duration" : 154
         },
         "flaky" : false,
         "newFailed" : false,

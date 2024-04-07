@@ -1,60 +1,60 @@
 [ {
-  "uid" : "31cdc33372b05b94",
+  "uid" : "5fa7e02b40f3ae5e",
   "name" : "Update author info",
   "time" : {
-    "start" : 1712525732765,
-    "stop" : 1712525733085,
-    "duration" : 320
+    "start" : 1712525865825,
+    "stop" : 1712525865993,
+    "duration" : 168
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "449aabca506ac7ad",
-  "name" : "Create new book",
-  "time" : {
-    "start" : 1712525732418,
-    "stop" : 1712525732483,
-    "duration" : 65
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4f239dbb20408297",
-  "name" : "Delete book by ID",
-  "time" : {
-    "start" : 1712525733087,
-    "stop" : 1712525733356,
-    "duration" : 269
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ce45bf4bccea916",
+  "uid" : "a1cee0aacc8d6448",
   "name" : "Update all info for book",
   "time" : {
-    "start" : 1712525732485,
-    "stop" : 1712525732764,
-    "duration" : 279
+    "start" : 1712525865680,
+    "stop" : 1712525865823,
+    "duration" : 143
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "107e41df8a448318",
+  "uid" : "672ca91f9a47c68",
   "name" : "Get all books",
   "time" : {
-    "start" : 1712525732118,
-    "stop" : 1712525732209,
-    "duration" : 91
+    "start" : 1712525865456,
+    "stop" : 1712525865514,
+    "duration" : 58
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8300681a8ee1bf33",
+  "uid" : "8f731892dcab7f3c",
+  "name" : "Create new book",
+  "time" : {
+    "start" : 1712525865612,
+    "stop" : 1712525865678,
+    "duration" : 66
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc837c6256c9afaa",
+  "name" : "Delete book by ID",
+  "time" : {
+    "start" : 1712525865995,
+    "stop" : 1712525866149,
+    "duration" : 154
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21c30f14e17457cc",
   "name" : "Get param for one book",
   "time" : {
-    "start" : 1712525732210,
-    "stop" : 1712525732416,
-    "duration" : 206
+    "start" : 1712525865516,
+    "stop" : 1712525865610,
+    "duration" : 94
   },
   "status" : "passed",
   "severity" : "normal"
