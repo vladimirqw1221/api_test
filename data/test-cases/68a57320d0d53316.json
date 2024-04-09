@@ -1,22 +1,22 @@
 {
-  "uid" : "d7247d3945ec664c",
+  "uid" : "68a57320d0d53316",
   "name" : "Get all books",
   "fullName" : "test.test_api_books.TestApiBooks#test_get_all_books",
   "historyId" : "2e3baa311996b04f514706c85f1326f2",
   "time" : {
-    "start" : 1712580258902,
-    "stop" : 1712580259240,
-    "duration" : 338
+    "start" : 1712691610914,
+    "stop" : 1712691611007,
+    "duration" : 93
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "_session_faker",
+    "name" : "book_api",
     "time" : {
-      "start" : 1712580258885,
-      "stop" : 1712580258902,
-      "duration" : 17
+      "start" : 1712691610913,
+      "stop" : 1712691610913,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +29,8 @@
   }, {
     "name" : "setup_model",
     "time" : {
-      "start" : 1712580258902,
-      "stop" : 1712580258902,
+      "start" : 1712691610913,
+      "stop" : 1712691610913,
       "duration" : 0
     },
     "status" : "passed",
@@ -42,11 +42,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "book_api",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1712580258902,
-      "stop" : 1712580258902,
-      "duration" : 0
+      "start" : 1712691610897,
+      "stop" : 1712691610913,
+      "duration" : 16
     },
     "status" : "passed",
     "steps" : [ ],
@@ -62,18 +62,18 @@
     "steps" : [ {
       "name" : "Get all books list",
       "time" : {
-        "start" : 1712580258903,
-        "stop" : 1712580259240,
-        "duration" : 337
+        "start" : 1712691610914,
+        "stop" : 1712691611007,
+        "duration" : 93
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "193e4ad6859fd79",
+        "uid" : "3124d64ecb5fb4a2",
         "name" : "API Response",
-        "source" : "193e4ad6859fd79.json",
+        "source" : "3124d64ecb5fb4a2.json",
         "type" : "application/json",
-        "size" : 52023
+        "size" : 116264
       } ],
       "parameters" : [ ],
       "attachmentsCount" : 1,
@@ -90,11 +90,11 @@
   },
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "feature",
-    "value" : "E2E test"
-  }, {
     "name" : "epic",
     "value" : "Test Api books"
+  }, {
+    "name" : "feature",
+    "value" : "E2E test"
   }, {
     "name" : "tag",
     "value" : "development"
@@ -109,10 +109,10 @@
     "value" : "TestApiBooks"
   }, {
     "name" : "host",
-    "value" : "fv-az801-430"
+    "value" : "fv-az1391-280"
   }, {
     "name" : "thread",
-    "value" : "1778-MainThread"
+    "value" : "1867-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -139,11 +139,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 6,
+        "passed" : 7,
         "unknown" : 0,
-        "total" : 6
+        "total" : 7
       },
       "items" : [ {
+        "uid" : "d7247d3945ec664c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712580258902,
+          "stop" : 1712580259240,
+          "duration" : 338
+        }
+      }, {
         "uid" : "e4d9d9d889885ed3",
         "status" : "passed",
         "time" : {
@@ -187,6 +195,6 @@
     },
     "tags" : [ "development" ]
   },
-  "source" : "d7247d3945ec664c.json",
+  "source" : "68a57320d0d53316.json",
   "parameterValues" : [ ]
 }
