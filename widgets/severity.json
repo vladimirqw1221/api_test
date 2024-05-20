@@ -1,60 +1,60 @@
 [ {
-  "uid" : "68a57320d0d53316",
-  "name" : "Get all books",
-  "time" : {
-    "start" : 1712691610914,
-    "stop" : 1712691611007,
-    "duration" : 93
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b00c73db69a25a99",
-  "name" : "Update all info for book",
-  "time" : {
-    "start" : 1712691611216,
-    "stop" : 1712691611435,
-    "duration" : 219
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "41d3111669b53b14",
-  "name" : "Get param for one book",
-  "time" : {
-    "start" : 1712691611009,
-    "stop" : 1712691611143,
-    "duration" : 134
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1c6cfe241d3a2880",
-  "name" : "Update author info",
-  "time" : {
-    "start" : 1712691611437,
-    "stop" : 1712691611643,
-    "duration" : 206
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ce6aed995712b344",
+  "uid" : "11f2540287967c0",
   "name" : "Delete book by ID",
   "time" : {
-    "start" : 1712691611645,
-    "stop" : 1712691611854,
-    "duration" : 209
+    "start" : 1716188710232,
+    "stop" : 1716188710657,
+    "duration" : 425
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "389ba3e453f313b0",
+  "uid" : "be3421e0981bd98f",
+  "name" : "Get param for one book",
+  "time" : {
+    "start" : 1716188708926,
+    "stop" : 1716188709219,
+    "duration" : 293
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6546e9ec1836abd5",
+  "name" : "Update all info for book",
+  "time" : {
+    "start" : 1716188709362,
+    "stop" : 1716188709806,
+    "duration" : 444
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8895e9b48618ab2",
   "name" : "Create new book",
   "time" : {
-    "start" : 1712691611145,
-    "stop" : 1712691611214,
-    "duration" : 69
+    "start" : 1716188709221,
+    "stop" : 1716188709360,
+    "duration" : 139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ecae8ef93bcc0557",
+  "name" : "Get all books",
+  "time" : {
+    "start" : 1716188708777,
+    "stop" : 1716188708924,
+    "duration" : 147
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5bf90c22daa20ab0",
+  "name" : "Update author info",
+  "time" : {
+    "start" : 1716188709808,
+    "stop" : 1716188710229,
+    "duration" : 421
   },
   "status" : "passed",
   "severity" : "normal"

@@ -1,21 +1,36 @@
 {
-  "uid" : "b00c73db69a25a99",
-  "name" : "Update all info for book",
-  "fullName" : "test.test_api_books.TestApiBooks#test_update_book_by_id",
-  "historyId" : "5e732771026790e6ae9062282b0a3bac",
+  "uid" : "be3421e0981bd98f",
+  "name" : "Get param for one book",
+  "fullName" : "test.test_api_books.TestApiBooks#test_get_one_book",
+  "historyId" : "f7c8420db5ce99c0b7dc43c839b2047a",
   "time" : {
-    "start" : 1712691611216,
-    "stop" : 1712691611435,
-    "duration" : 219
+    "start" : 1716188708926,
+    "stop" : 1716188709219,
+    "duration" : 293
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1716188708759,
+      "stop" : 1716188708776,
+      "duration" : 17
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
     "name" : "setup_model",
     "time" : {
-      "start" : 1712691611216,
-      "stop" : 1712691611216,
+      "start" : 1716188708926,
+      "stop" : 1716188708926,
       "duration" : 0
     },
     "status" : "passed",
@@ -29,24 +44,9 @@
   }, {
     "name" : "book_api",
     "time" : {
-      "start" : 1712691610913,
-      "stop" : 1712691610913,
+      "start" : 1716188708776,
+      "stop" : 1716188708776,
       "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "_session_faker",
-    "time" : {
-      "start" : 1712691610897,
-      "stop" : 1712691610913,
-      "duration" : 16
     },
     "status" : "passed",
     "steps" : [ ],
@@ -60,36 +60,36 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Update book",
+      "name" : "Get param for one  book",
       "time" : {
-        "start" : 1712691611216,
-        "stop" : 1712691611435,
-        "duration" : 219
+        "start" : 1716188708926,
+        "stop" : 1716188709219,
+        "duration" : 293
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Create book",
         "time" : {
-          "start" : 1712691611216,
-          "stop" : 1712691611283,
-          "duration" : 67
+          "start" : 1716188708926,
+          "stop" : 1716188709077,
+          "duration" : 151
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Create book data",
           "time" : {
-            "start" : 1712691611283,
-            "stop" : 1712691611283,
+            "start" : 1716188709076,
+            "stop" : 1716188709076,
             "duration" : 0
           },
           "status" : "passed",
           "steps" : [ ],
           "attachments" : [ {
-            "uid" : "425d568b73d5ab96",
+            "uid" : "25addad873224219",
             "name" : "API Response",
-            "source" : "425d568b73d5ab96.json",
+            "source" : "25addad873224219.json",
             "type" : "application/json",
-            "size" : 315
+            "size" : 314
           } ],
           "parameters" : [ ],
           "attachmentsCount" : 1,
@@ -105,11 +105,11 @@
         "hasContent" : true
       } ],
       "attachments" : [ {
-        "uid" : "ceffeb6b10b9a553",
+        "uid" : "dd6f9e9914546a9e",
         "name" : "API Response",
-        "source" : "ceffeb6b10b9a553.json",
+        "source" : "dd6f9e9914546a9e.json",
         "type" : "application/json",
-        "size" : 233
+        "size" : 232
       } ],
       "parameters" : [ ],
       "attachmentsCount" : 2,
@@ -126,11 +126,11 @@
   },
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "epic",
-    "value" : "Test Api books"
-  }, {
     "name" : "feature",
     "value" : "E2E test"
+  }, {
+    "name" : "epic",
+    "value" : "Test Api books"
   }, {
     "name" : "tag",
     "value" : "development"
@@ -145,10 +145,10 @@
     "value" : "TestApiBooks"
   }, {
     "name" : "host",
-    "value" : "fv-az1391-280"
+    "value" : "fv-az692-597"
   }, {
     "name" : "thread",
-    "value" : "1867-MainThread"
+    "value" : "1797-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -175,62 +175,70 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 7,
+        "passed" : 8,
         "unknown" : 0,
-        "total" : 7
+        "total" : 8
       },
       "items" : [ {
-        "uid" : "d905c568bd932b03",
+        "uid" : "41d3111669b53b14",
         "status" : "passed",
         "time" : {
-          "start" : 1712580260068,
-          "stop" : 1712580260876,
-          "duration" : 808
+          "start" : 1712691611009,
+          "stop" : 1712691611143,
+          "duration" : 134
         }
       }, {
-        "uid" : "29afe8445bc96487",
+        "uid" : "927695a1aa9fafba",
         "status" : "passed",
         "time" : {
-          "start" : 1712561834186,
-          "stop" : 1712561834615,
-          "duration" : 429
+          "start" : 1712580259242,
+          "stop" : 1712580259789,
+          "duration" : 547
         }
       }, {
-        "uid" : "d0b7da5bfc7a29ba",
+        "uid" : "b3eb0c22b3491c2e",
         "status" : "passed",
         "time" : {
-          "start" : 1712526866506,
-          "stop" : 1712526866989,
-          "duration" : 483
+          "start" : 1712561833764,
+          "stop" : 1712561834047,
+          "duration" : 283
         }
       }, {
-        "uid" : "497b5ea7e5db4bea",
+        "uid" : "bc5b730d9d70a652",
         "status" : "passed",
         "time" : {
-          "start" : 1712526650994,
-          "stop" : 1712526651207,
-          "duration" : 213
+          "start" : 1712526866077,
+          "stop" : 1712526866359,
+          "duration" : 282
         }
       }, {
-        "uid" : "a1cee0aacc8d6448",
+        "uid" : "5a20dde45938abad",
         "status" : "passed",
         "time" : {
-          "start" : 1712525865680,
-          "stop" : 1712525865823,
-          "duration" : 143
+          "start" : 1712526650791,
+          "stop" : 1712526650924,
+          "duration" : 133
         }
       }, {
-        "uid" : "ce45bf4bccea916",
+        "uid" : "21c30f14e17457cc",
         "status" : "passed",
         "time" : {
-          "start" : 1712525732485,
-          "stop" : 1712525732764,
-          "duration" : 279
+          "start" : 1712525865516,
+          "stop" : 1712525865610,
+          "duration" : 94
+        }
+      }, {
+        "uid" : "8300681a8ee1bf33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712525732210,
+          "stop" : 1712525732416,
+          "duration" : 206
         }
       } ]
     },
     "tags" : [ "development" ]
   },
-  "source" : "b00c73db69a25a99.json",
+  "source" : "be3421e0981bd98f.json",
   "parameterValues" : [ ]
 }
