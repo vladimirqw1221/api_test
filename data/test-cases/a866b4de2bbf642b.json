@@ -1,0 +1,252 @@
+{
+  "uid" : "a866b4de2bbf642b",
+  "name" : "Get param for one book",
+  "fullName" : "test.test_api_books.TestApiBooks#test_get_one_book",
+  "historyId" : "f7c8420db5ce99c0b7dc43c839b2047a",
+  "time" : {
+    "start" : 1716550814406,
+    "stop" : 1716550814928,
+    "duration" : 522
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1716550813983,
+      "stop" : 1716550814000,
+      "duration" : 17
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup_model",
+    "time" : {
+      "start" : 1716550814406,
+      "stop" : 1716550814406,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "book_api",
+    "time" : {
+      "start" : 1716550814000,
+      "stop" : 1716550814000,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get param for one  book",
+      "time" : {
+        "start" : 1716550814406,
+        "stop" : 1716550814928,
+        "duration" : 522
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Create book",
+        "time" : {
+          "start" : 1716550814406,
+          "stop" : 1716550814664,
+          "duration" : 258
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Create book data",
+          "time" : {
+            "start" : 1716550814663,
+            "stop" : 1716550814664,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "6aee3d32309c45ab",
+            "name" : "API Response",
+            "source" : "6aee3d32309c45ab.json",
+            "type" : "application/json",
+            "size" : 317
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "f83352a31a2be343",
+        "name" : "API Response",
+        "source" : "f83352a31a2be343.json",
+        "type" : "application/json",
+        "size" : 235
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "E2E test"
+  }, {
+    "name" : "epic",
+    "value" : "Test Api books"
+  }, {
+    "name" : "tag",
+    "value" : "development"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_books"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestApiBooks"
+  }, {
+    "name" : "host",
+    "value" : "fv-az802-676"
+  }, {
+    "name" : "thread",
+    "value" : "1859-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_api_books"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "be3421e0981bd98f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716188708926,
+          "stop" : 1716188709219,
+          "duration" : 293
+        }
+      }, {
+        "uid" : "41d3111669b53b14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712691611009,
+          "stop" : 1712691611143,
+          "duration" : 134
+        }
+      }, {
+        "uid" : "927695a1aa9fafba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712580259242,
+          "stop" : 1712580259789,
+          "duration" : 547
+        }
+      }, {
+        "uid" : "b3eb0c22b3491c2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712561833764,
+          "stop" : 1712561834047,
+          "duration" : 283
+        }
+      }, {
+        "uid" : "bc5b730d9d70a652",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712526866077,
+          "stop" : 1712526866359,
+          "duration" : 282
+        }
+      }, {
+        "uid" : "5a20dde45938abad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712526650791,
+          "stop" : 1712526650924,
+          "duration" : 133
+        }
+      }, {
+        "uid" : "21c30f14e17457cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712525865516,
+          "stop" : 1712525865610,
+          "duration" : 94
+        }
+      }, {
+        "uid" : "8300681a8ee1bf33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1712525732210,
+          "stop" : 1712525732416,
+          "duration" : 206
+        }
+      } ]
+    },
+    "tags" : [ "development" ]
+  },
+  "source" : "a866b4de2bbf642b.json",
+  "parameterValues" : [ ]
+}
