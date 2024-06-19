@@ -1,91 +1,91 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az802-676",
+    "name" : "fv-az849-623",
     "children" : [ {
-      "name" : "1859-MainThread",
+      "name" : "1807-MainThread",
       "children" : [ {
         "name" : "Create new book",
-        "uid" : "7e67d7671e5015a6",
-        "parentUid" : "668f437f8926dc90c1bcbe9b2a17237a",
+        "uid" : "14d17ced8d173f1",
+        "parentUid" : "1c9365a2342d6dc78dfa9b9c83d23d87",
         "status" : "passed",
         "time" : {
-          "start" : 1716550814930,
-          "stop" : 1716550815194,
-          "duration" : 264
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Update author info",
-        "uid" : "6fac176ce3c976ae",
-        "parentUid" : "668f437f8926dc90c1bcbe9b2a17237a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1716550815998,
-          "stop" : 1716550816767,
-          "duration" : 769
+          "start" : 1718828488989,
+          "stop" : 1718828489037,
+          "duration" : 48
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Update all info for book",
-        "uid" : "20d76ca38f6678ac",
-        "parentUid" : "668f437f8926dc90c1bcbe9b2a17237a",
+        "uid" : "fb3ed34a2f8a34a9",
+        "parentUid" : "1c9365a2342d6dc78dfa9b9c83d23d87",
         "status" : "passed",
         "time" : {
-          "start" : 1716550815196,
-          "stop" : 1716550815996,
-          "duration" : 800
+          "start" : 1718828489039,
+          "stop" : 1718828489182,
+          "duration" : 143
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Get all books",
-        "uid" : "c3e4343f1855d074",
-        "parentUid" : "668f437f8926dc90c1bcbe9b2a17237a",
+        "uid" : "53cbd5f40b244faa",
+        "parentUid" : "1c9365a2342d6dc78dfa9b9c83d23d87",
         "status" : "passed",
         "time" : {
-          "start" : 1716550814000,
-          "stop" : 1716550814404,
-          "duration" : 404
+          "start" : 1718828488815,
+          "stop" : 1718828488883,
+          "duration" : 68
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Delete book by ID",
-        "uid" : "fc5b5d0360277a25",
-        "parentUid" : "668f437f8926dc90c1bcbe9b2a17237a",
+        "uid" : "252ef98f9c4b187c",
+        "parentUid" : "1c9365a2342d6dc78dfa9b9c83d23d87",
         "status" : "passed",
         "time" : {
-          "start" : 1716550816769,
-          "stop" : 1716550817545,
-          "duration" : 776
+          "start" : 1718828489336,
+          "stop" : 1718828489478,
+          "duration" : 142
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update author info",
+        "uid" : "dfb7536b83efd421",
+        "parentUid" : "1c9365a2342d6dc78dfa9b9c83d23d87",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718828489185,
+          "stop" : 1718828489333,
+          "duration" : 148
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Get param for one book",
-        "uid" : "a866b4de2bbf642b",
-        "parentUid" : "668f437f8926dc90c1bcbe9b2a17237a",
+        "uid" : "ce5704a24d9fe44",
+        "parentUid" : "1c9365a2342d6dc78dfa9b9c83d23d87",
         "status" : "passed",
         "time" : {
-          "start" : 1716550814406,
-          "stop" : 1716550814928,
-          "duration" : 522
+          "start" : 1718828488886,
+          "stop" : 1718828488987,
+          "duration" : 101
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "668f437f8926dc90c1bcbe9b2a17237a"
+      "uid" : "1c9365a2342d6dc78dfa9b9c83d23d87"
     } ],
-    "uid" : "03625406bc7f1f884ec350173c9d37a4"
+    "uid" : "4fda0cbd518c82f11259592fa7308ed7"
   } ],
   "name" : "timeline"
 }
