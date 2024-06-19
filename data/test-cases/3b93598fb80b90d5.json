@@ -1,21 +1,21 @@
 {
-  "uid" : "dfb7536b83efd421",
+  "uid" : "3b93598fb80b90d5",
   "name" : "Update author info",
   "fullName" : "test.test_api_books.TestApiBooks#test_update_author_book",
   "historyId" : "8c2f35b5e42ad3e8f24a35b43e47623e",
   "time" : {
-    "start" : 1718828489185,
-    "stop" : 1718828489333,
-    "duration" : 148
+    "start" : 1718828995559,
+    "stop" : 1718828995768,
+    "duration" : 209
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "book_api",
+    "name" : "setup_model",
     "time" : {
-      "start" : 1718828488814,
-      "stop" : 1718828488814,
+      "start" : 1718828995558,
+      "stop" : 1718828995558,
       "duration" : 0
     },
     "status" : "passed",
@@ -29,8 +29,8 @@
   }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1718828488796,
-      "stop" : 1718828488814,
+      "start" : 1718828994991,
+      "stop" : 1718828995009,
       "duration" : 18
     },
     "status" : "passed",
@@ -42,10 +42,10 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "setup_model",
+    "name" : "book_api",
     "time" : {
-      "start" : 1718828489184,
-      "stop" : 1718828489184,
+      "start" : 1718828995010,
+      "stop" : 1718828995010,
       "duration" : 0
     },
     "status" : "passed",
@@ -62,34 +62,34 @@
     "steps" : [ {
       "name" : "Update author",
       "time" : {
-        "start" : 1718828489185,
-        "stop" : 1718828489333,
-        "duration" : 148
+        "start" : 1718828995559,
+        "stop" : 1718828995768,
+        "duration" : 209
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Create book",
         "time" : {
-          "start" : 1718828489185,
-          "stop" : 1718828489233,
-          "duration" : 48
+          "start" : 1718828995559,
+          "stop" : 1718828995620,
+          "duration" : 61
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Create book data",
           "time" : {
-            "start" : 1718828489232,
-            "stop" : 1718828489232,
+            "start" : 1718828995619,
+            "stop" : 1718828995619,
             "duration" : 0
           },
           "status" : "passed",
           "steps" : [ ],
           "attachments" : [ {
-            "uid" : "55a8ddb79ce6946e",
+            "uid" : "1190501606dea5be",
             "name" : "API Response",
-            "source" : "55a8ddb79ce6946e.json",
+            "source" : "1190501606dea5be.json",
             "type" : "application/json",
-            "size" : 312
+            "size" : 316
           } ],
           "parameters" : [ ],
           "attachmentsCount" : 1,
@@ -105,11 +105,11 @@
         "hasContent" : true
       } ],
       "attachments" : [ {
-        "uid" : "6de4034f16c2b29e",
+        "uid" : "43663e2b393b71e7",
         "name" : "API Response",
-        "source" : "6de4034f16c2b29e.json",
+        "source" : "43663e2b393b71e7.json",
         "type" : "application/json",
-        "size" : 233
+        "size" : 234
       } ],
       "parameters" : [ ],
       "attachmentsCount" : 2,
@@ -145,10 +145,10 @@
     "value" : "TestApiBooks"
   }, {
     "name" : "host",
-    "value" : "fv-az849-623"
+    "value" : "fv-az1984-156"
   }, {
     "name" : "thread",
-    "value" : "1807-MainThread"
+    "value" : "1818-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -175,11 +175,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 10,
+        "passed" : 11,
         "unknown" : 0,
-        "total" : 10
+        "total" : 11
       },
       "items" : [ {
+        "uid" : "dfb7536b83efd421",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718828489185,
+          "stop" : 1718828489333,
+          "duration" : 148
+        }
+      }, {
         "uid" : "6fac176ce3c976ae",
         "status" : "passed",
         "time" : {
@@ -255,6 +263,6 @@
     },
     "tags" : [ "development" ]
   },
-  "source" : "dfb7536b83efd421.json",
+  "source" : "3b93598fb80b90d5.json",
   "parameterValues" : [ ]
 }

@@ -1,22 +1,22 @@
 {
-  "uid" : "14d17ced8d173f1",
+  "uid" : "891c9575ccf422ff",
   "name" : "Create new book",
   "fullName" : "test.test_api_books.TestApiBooks#test_create_book",
   "historyId" : "cd81ee651e62de12ce29e517e7f589b7",
   "time" : {
-    "start" : 1718828488989,
-    "stop" : 1718828489037,
-    "duration" : 48
+    "start" : 1718828995272,
+    "stop" : 1718828995341,
+    "duration" : 69
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "book_api",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1718828488814,
-      "stop" : 1718828488814,
-      "duration" : 0
+      "start" : 1718828994991,
+      "stop" : 1718828995009,
+      "duration" : 18
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "_session_faker",
+    "name" : "book_api",
     "time" : {
-      "start" : 1718828488796,
-      "stop" : 1718828488814,
-      "duration" : 18
+      "start" : 1718828995010,
+      "stop" : 1718828995010,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,9 +44,9 @@
   }, {
     "name" : "setup_model",
     "time" : {
-      "start" : 1718828488989,
-      "stop" : 1718828488989,
-      "duration" : 0
+      "start" : 1718828995271,
+      "stop" : 1718828995272,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -62,26 +62,26 @@
     "steps" : [ {
       "name" : "Create book",
       "time" : {
-        "start" : 1718828488990,
-        "stop" : 1718828489037,
-        "duration" : 47
+        "start" : 1718828995272,
+        "stop" : 1718828995341,
+        "duration" : 69
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Create book data",
         "time" : {
-          "start" : 1718828489036,
-          "stop" : 1718828489036,
-          "duration" : 0
+          "start" : 1718828995339,
+          "stop" : 1718828995340,
+          "duration" : 1
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ {
-          "uid" : "5e5c2e2b0ffdf5c1",
+          "uid" : "962034b9db15e6c1",
           "name" : "API Response",
-          "source" : "5e5c2e2b0ffdf5c1.json",
+          "source" : "962034b9db15e6c1.json",
           "type" : "application/json",
-          "size" : 312
+          "size" : 316
         } ],
         "parameters" : [ ],
         "attachmentsCount" : 1,
@@ -124,10 +124,10 @@
     "value" : "TestApiBooks"
   }, {
     "name" : "host",
-    "value" : "fv-az849-623"
+    "value" : "fv-az1984-156"
   }, {
     "name" : "thread",
-    "value" : "1807-MainThread"
+    "value" : "1818-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -154,11 +154,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 10,
+        "passed" : 11,
         "unknown" : 0,
-        "total" : 10
+        "total" : 11
       },
       "items" : [ {
+        "uid" : "14d17ced8d173f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1718828488989,
+          "stop" : 1718828489037,
+          "duration" : 48
+        }
+      }, {
         "uid" : "7e67d7671e5015a6",
         "status" : "passed",
         "time" : {
@@ -234,6 +242,6 @@
     },
     "tags" : [ "development" ]
   },
-  "source" : "14d17ced8d173f1.json",
+  "source" : "891c9575ccf422ff.json",
   "parameterValues" : [ ]
 }
