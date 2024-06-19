@@ -1,60 +1,60 @@
 [ {
-  "uid" : "891c9575ccf422ff",
+  "uid" : "903a050388d4ed7b",
   "name" : "Create new book",
   "time" : {
-    "start" : 1718828995272,
-    "stop" : 1718828995341,
-    "duration" : 69
+    "start" : 1718829590900,
+    "stop" : 1718829591060,
+    "duration" : 160
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8d12e6b76f5686c1",
+  "uid" : "c54a5aab786fc9a2",
   "name" : "Delete book by ID",
   "time" : {
-    "start" : 1718828995770,
-    "stop" : 1718828995985,
-    "duration" : 215
+    "start" : 1718829591902,
+    "stop" : 1718829592267,
+    "duration" : 365
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3b93598fb80b90d5",
-  "name" : "Update author info",
-  "time" : {
-    "start" : 1718828995559,
-    "stop" : 1718828995768,
-    "duration" : 209
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "75d1932e90bca644",
-  "name" : "Get all books",
-  "time" : {
-    "start" : 1718828995010,
-    "stop" : 1718828995120,
-    "duration" : 110
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "87beb1ec065e677f",
-  "name" : "Update all info for book",
-  "time" : {
-    "start" : 1718828995343,
-    "stop" : 1718828995556,
-    "duration" : 213
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "46f90324f082f73e",
+  "uid" : "caff81d9c571590e",
   "name" : "Get param for one book",
   "time" : {
-    "start" : 1718828995122,
-    "stop" : 1718828995269,
-    "duration" : 147
+    "start" : 1718829590647,
+    "stop" : 1718829590898,
+    "duration" : 251
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8a2decb22b8bc3f",
+  "name" : "Update all info for book",
+  "time" : {
+    "start" : 1718829591062,
+    "stop" : 1718829591517,
+    "duration" : 455
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23c046dc43b0adb1",
+  "name" : "Get all books",
+  "time" : {
+    "start" : 1718829590417,
+    "stop" : 1718829590645,
+    "duration" : 228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "904ee67aa8019963",
+  "name" : "Update author info",
+  "time" : {
+    "start" : 1718829591519,
+    "stop" : 1718829591900,
+    "duration" : 381
   },
   "status" : "passed",
   "severity" : "normal"
